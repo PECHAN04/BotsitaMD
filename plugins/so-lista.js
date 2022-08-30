@@ -515,6 +515,30 @@ this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt
 if (chat.audios && m.text.match(/(vetealavrg|vete a la vrg|vete a la verga)/gi)) {    
 let vn = './media/vete a la verga.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.cj
+hat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+    
+if (chat.audios && m.text.match(/(D01|d01|bailar)/gi)) {
+let vn = './media/tameimpala.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (chat.audios && m.text.match(/(D021|d021|d21|D21|encantas)/gi)) {
+let vn = './media/meencantas.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (chat.audios && m.text.match(/(Op2|op2)/gi)) {
+let vn = './media/domestic.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (chat.audios && m.text.match(/(Yoshi|d00|D00)/gi)) {
+
+let vn = './media/papupapu.mp3'
+
+this.sendPresenceUpdate('recording', m.chat)
+
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
    
 return !0 }
