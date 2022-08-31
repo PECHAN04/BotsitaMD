@@ -547,5 +547,10 @@ let vn = './media/turipp.mp3'
 this.sendPresenceUpdate('recording', m.chat)
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
+if (chat.audios && m.text.match(/(D22|d22|modelame|Modelame)/gi)) {
+let vn = './media/pose.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+    
 return !0 }
 export default handler
