@@ -85,7 +85,9 @@ let username = conn.getName(who)
 let menu = `
 💗 *¡HOLA | HI!* ${username}
 ╭━━〔 *${wm}* 〕━━⬣
-┃🔰🔰🔰🔰🔰🔰🔰🔰🔰 
+┃🔰🔰🔰🔰🔰🔰🔰🔰🔰
+┃  MODERADOR
+┃༺•⎝𝑃𝑒𝐶𝒉𝑎𝑛⎠•༻
 ┃✪ *EXPERIENCIA | EXP ➺ ${exp}*
 ┃✪ *NIVEL | LEVEL ➺ ${level}*
 ┃✪ *ROL ➺* ${role}
