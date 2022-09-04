@@ -552,5 +552,10 @@ let vn = './media/pose.mp3'
 this.sendPresenceUpdate('recording', m.chat)
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
+if (chat.audios && m.text.match(/(dinosonichan|Dinosonichan|Dinos Onichan|Dinos onichan|Oni-chan|oni-chan)/gi)) {
+let vn = './media/dinosonichan.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+    
 return !0 }
 export default handler
